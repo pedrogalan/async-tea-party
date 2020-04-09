@@ -6,4 +6,6 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/core.async "1.1.587"]
                  [proto-repl "0.3.1"]]
-  :repl-options {:init-ns async-tea-party.core})
+  :repl-options {:init-ns async-tea-party.core}
+  :main async-tea-party.core
+  :aot [async-tea-party.core])
